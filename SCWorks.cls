@@ -150,6 +150,13 @@
     \typework{\cyr\cyrn\cyra\cyrp\cyri\cyrs\cyra\cyrn\cyra}
 }
 
+\DeclareOption{othetMV}{%
+    \worktype{\cyro\CYRT\cyrch\cyryo\cyrt}
+    \workname{\MakeUppercase{\@worktype}}
+    \renewcommand{\maketitle}{\MVMakeTitle}
+    \typework{\cyr\cyrn\cyra\cyrp\cyri\cyrs\cyra\cyrn}
+}
+
 \DeclareOption{nirjournal}{%
     \worktype{\cyrd\cyrn\cyre\cyrv\cyrn\cyri\cyrk\ \cyrn\cyri\cyrr}
     \renewcommand{\maketitle}{\NIRJournalMakeTitle}
@@ -880,6 +887,56 @@ C\cyro\cyrd\cyre\cyrr\cyrzh\cyra\cyrn\cyri\cyre\ \cyrr\cyra\cyrb%
 \shapka
 
 \vspace{3cm}
+{\centering
+\textbf{\MakeUppercase{\@title}}
+\\[0.3cm]
+{\@workname}
+
+}
+
+\vspace{1.5cm}
+\begin{flushleft}
+\@studenttitle\ \@course\ \cyrk\cyru\cyrr\cyrs\cyra\ \@group\ \cyrg%
+\cyrr\cyru\cyrp\cyrp\cyrery\\
+\@spectype\ \@napravlenie\\
+\@department\\
+\@author
+\end{flushleft}
+\vfill
+
+\noindent
+\CYRP\cyrr\cyro\cyrv\cyre\cyrr\cyre\cyrn\cyro:\\
+\signature{\@satitle}{\@saname}
+
+\vfill
+{\centering{\cyr\CYRS\cyra\cyrr\cyra\cyrt\cyro\cyrv\ \@date}
+
+}
+% --------------------------------------------------------------------------%
+
+% --------------------------------------------------------------------------%
+% Computing methods title page
+% --------------------------------------------------------------------------%
+\newpage
+}
+\newcommand{\MVMakeTitle}
+{
+\thispagestyle{empty}
+\shapka
+\vspace{0.5cm}
+\begin{center}
+%\parbox{8cm}{
+%\raggedright
+\CYRK\cyra\cyrf\cyre\cyrd\cyrr\cyra\ \@chair
+%}
+\end{center}
+% \vspace{15pt}
+
+\vspace{14pt}
+\hrule
+
+\vspace{14pt}
+\vspace{1cm}
 {\centering
 \textbf{\MakeUppercase{\@title}}
 \\[0.3cm]
