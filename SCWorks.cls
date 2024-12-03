@@ -944,7 +944,7 @@ C\cyro\cyrd\cyre\cyrr\cyrzh\cyra\cyrn\cyri\cyre\ \cyrr\cyra\cyrb%
 {
 \thispagestyle{empty}
 \shapkaMV
-\vspace{0.5cm}
+\vspace{0.6cm}
 \begin{center}
 %\parbox{8cm}{
 %\raggedright
