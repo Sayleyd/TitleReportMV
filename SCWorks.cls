@@ -150,9 +150,9 @@
     \typework{\cyr\cyrn\cyra\cyrp\cyri\cyrs\cyra\cyrn\cyra}
 }
 
-\DeclareOption{othetMV}{%
-    \worktype{\cyro\CYRT\cyrch\cyryo\cyrt}
-    \workname{\MakeUppercase{\@worktype}}
+\DeclareOption{otchetMV}{%
+    \worktype{по дисциплине <<Методы вычислений>>}
+    \workname{\@worktype}
     \renewcommand{\maketitle}{\MVMakeTitle}
     \typework{\cyr\cyrn\cyra\cyrp\cyri\cyrs\cyra\cyrn}
 }
@@ -959,7 +959,7 @@ C\cyro\cyrd\cyre\cyrr\cyrzh\cyra\cyrn\cyri\cyre\ \cyrr\cyra\cyrb%
 \vspace{14pt}
 \vspace{1cm}
 {\centering
-\textbf{\MakeUppercase{\@title}}
+\textbf{\MakeUppercase{Отчет по <<практической подготовке>>}}
 \\[0.3cm]
 {\@workname}
 
