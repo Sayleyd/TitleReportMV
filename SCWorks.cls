@@ -585,6 +585,27 @@
 \CYRI\CYRM\CYRE\CYRN\CYRI~\CYRN.\,\CYRG.\,\CYRCH\CYRE\CYRR\CYRN\CYRERY%
 \CYRSH\CYRE\CYRV\CYRS\CYRK\CYRO\CYRG\CYRO>>}}}}}}
 
+\newcommand{\shapkaMV}{{\centering \CYRM\CYRI\CYRN\CYRO\CYRB\CYRR\CYRN\CYRA%
+\CYRU\CYRK\CYRI\ \CYRR\CYRO\CYRS\CYRS\CYRI\CYRI\\ %
+\CYRF\cyre\cyrd\cyre\cyrr\cyra\cyrl\cyrsftsn\cyrn\cyro\cyre\ \cyrg\cyro%
+\cyrs\cyru\cyrd\cyra\cyrr\cyrs\cyrt\cyrv\cyre\cyrn\cyrn\cyro\cyre\ %
+\cyrb\cyryu\cyrd\cyrzh\cyre\cyrt\cyrn\cyro\cyre\ \cyro\cyrb\cyrr\cyra%
+\cyrz\cyro\cyrv\cyra\cyrt\cyre\cyrl\cyrsftsn\cyrn\cyro\cyre\ \cyru%
+\cyrch\cyrr\cyre\cyrzh\cyrd\cyre\cyrn\cyri\cyre\ \\\cyrv\cyrery\cyrs%
+\cyrsh\cyre\cyrg\cyro\ \cyro\cyrb\cyrr\cyra\cyrz%
+\cyro\cyrv\cyra\cyrn\cyri\cyrya\\[0.2em]
+
+\centerline{\scalebox{\scaleUnivName}[1.0]{\parbox[t]{1.1\textwidth}
+{\centering
+\textbf{<<\CYRS\CYRA\CYRR\CYRA\CYRT\CYRO\CYRV\CYRS\CYRK\CYRI\CYRISHRT\ %
+\CYRN\CYRA\CYRC\CYRI\CYRO\CYRN\CYRA\CYRL\CYRSFTSN\CYRN\CYRERY%
+\CYRISHRT\ \CYRI\CYRS\CYRS\CYRL\CYRE\CYRD\CYRO\CYRV\CYRA\CYRT\CYRE\CYRL%
+\CYRSFTSN\CYRS\CYRK\CYRI\CYRISHRT\ \\%
+\CYRG\CYRO\CYRS\CYRU\CYRD\CYRA\CYRR\CYRS\CYRT\CYRV\CYRE\CYRN\CYRN\CYRERY%
+\CYRISHRT\ \CYRU\CYRN\CYRI\CYRV\CYRE\CYRR\CYRS\CYRI\CYRT\CYRE\CYRT %
+\CYRI\CYRM\CYRE\CYRN\CYRI~\CYRN.\,\CYRG.\,\CYRCH\CYRE\CYRR\CYRN\CYRERY%
+\CYRSH\CYRE\CYRV\CYRS\CYRK\CYRO\CYRG\CYRO>>}}}}}}
+
 \newcommand{\CDMakeTitle}
 {
 \thispagestyle{empty}
@@ -922,7 +943,7 @@ C\cyro\cyrd\cyre\cyrr\cyrzh\cyra\cyrn\cyri\cyre\ \cyrr\cyra\cyrb%
 \newcommand{\MVMakeTitle}
 {
 \thispagestyle{empty}
-\shapka
+\shapkaMV
 \vspace{0.5cm}
 \begin{center}
 %\parbox{8cm}{
